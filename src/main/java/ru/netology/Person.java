@@ -55,7 +55,6 @@ public class Person {
     public PersonBuilder newChildBuilder() {
         return new PersonBuilder()
                 .setSurname(this.getSurname())
-                .setAge(5)
                 .setAddress(this.getAddress());
     }
 
