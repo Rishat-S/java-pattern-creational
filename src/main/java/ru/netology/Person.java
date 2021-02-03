@@ -52,7 +52,7 @@ public class Person {
         this.age++;
     }
 
-    public Builder newChildBuilder() {
+    public PersonBuilder newChildBuilder() {
         return new PersonBuilder()
                 .setSurname(this.getSurname())
                 .setAge(5)
